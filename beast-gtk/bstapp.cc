@@ -141,7 +141,7 @@ static const GxkStockAction simple_help_actions[] = {
     ACTION_HELP_QUICK_START,    BST_STOCK_HELP },
   { N_("Online _Help Desk..."), NULL,           N_("Start a web browser pointing to the online help desk at the BEAST website"),
     ACTION_URL_HELP_DESK,       BST_STOCK_ONLINE_HELP_DESK },
-  { N_("Report a Beast Bug..."),NULL,           N_("Start a web browser with the bug report form for the BEAST bugzilla product"),
+  { N_("Report a Beast Bug..."),NULL,           N_("Start a web browser with the bug report form for the BEAST product"),
     ACTION_URL_REPORT_BUG,      BST_STOCK_ONLINE_BUGS },
 #if 0
   { N_("Developing Plugins..."),NULL,           N_("A guide to synthesis plugin development"),
@@ -939,7 +939,7 @@ app_action_exec (gpointer data,
       sfi_url_show ("http://beast.testbit.eu/");
       break;
     case ACTION_URL_REPORT_BUG:
-      sfi_url_show ("https://bugzilla.gnome.org/enter_bug.cgi?product=beast");
+      sfi_url_show ("https://gitlab.gnome.org/GNOME/beast/issues/new");
       break;
     case ACTION_URL_ONLINE_SYNTHESIZERS:
       sfi_url_show ("http://beast.testbit.eu/Beast_Sound_Gallery");
