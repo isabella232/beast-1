@@ -8,7 +8,7 @@
   <shortdesc xml:lang="en">Solution for Music Composition and Synthesis</shortdesc>
   <homepage rdf:resource="http://beast.testbit.eu/" />
   <download-page rdf:resource="http://beast.testbit.eu/Beast_Download" />
-  <bug-database rdf:resource="http://bugzilla.gnome.org/browse.cgi?product=beast" />
+  <bug-database rdf:resource="https://gitlab.gnome.org/GNOME/beast/issues/" />
 
   <!-- <category rdf:resource="http://api.gnome.org/doap-extensions#desktop" /> -->
 
